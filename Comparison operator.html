@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comparison Operators</title>
+    </head>
+    <body>
+        <h2>Comparison Operators:</h2>
+        <p id="one"></p>
+        <p id="two"></p>
+        <p id="three"></p>
+        <p id="four"></p>
+        <p id="five"></p>
+        <p id="six"></p>
+        <p id="seven"></p>
+        <p id="eight"></p>
+        <script>
+            let a=10;
+            let b=20;
+            let c=a==b;
+            let d=a===b;
+            document.getElementById("one").innerHTML=" a and b are equal: "+c;
+            document.getElementById("two").innerHTML="a and b are equal: "+d;
+            let e=b!=3;
+            document.getElementById("three").innerHTML="a and b are equal: "+e;
+            let f=a!==b;
+            document.getElementById("four").innerHTML="a and b are equal: "+f;
+            let g=a>b;
+            document.getElementById("five").innerHTML="a greaterthan b: "+g;
+            let h=a<b;
+            document.getElementById("six").innerHTML="a lessthan b: "+h;
+            let i=a<=b;
+            document.getElementById("seven").innerHTML="a and b are greaterthan or equal: "+i;
+            let j=a>=b;
+            document.getElementById("eight").innerHTML="a and b are lessthan or equal: "+j;
+        </script>
+    </body>
+</html>
